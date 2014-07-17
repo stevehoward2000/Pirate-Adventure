@@ -11,6 +11,8 @@
 @interface SHArmor : NSObject
 
 @property (nonatomic, strong) NSString *name;
-@property (nonatomic) NSInteger points;
+@property (nonatomic) NSInteger health;
+
+-(id)initWithName:(NSString *)name withHealth:(NSInteger)health;
 
 @end

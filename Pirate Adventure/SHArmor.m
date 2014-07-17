@@ -10,10 +10,10 @@
 
 @implementation SHArmor
 
--(id)init {
+-(id)initWithName:(NSString *)name withHealth:(NSInteger)health {
     if ((self = [super init])) {
-        self.name = @"Cloak";
-        self.points = 3;
+        self.name = name;
+        self.health = health;
     }
     return self;
 }
